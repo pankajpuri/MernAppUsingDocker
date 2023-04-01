@@ -30,6 +30,9 @@ The following resources may help:
 Provide input as a developer to your team’s UX Designer(s), with a focus on the technical feasibility of the UX Design prototype you have been given to work with.  Note that your input is provided for advisory purposes only, for it is the UX Designer(s)’ responsibility to make the final decisions on the design.  
 
 ### Built With
+- `React.Js`
+- `Bootstrap`
+- `Axios`
 - `JQuery`
 - `Node.JS`
 - `Express.JS`
