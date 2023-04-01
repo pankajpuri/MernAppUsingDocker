@@ -1,0 +1,34 @@
+version: "3.8"
+services:
+
+  react-app:
+    image: react-app
+    # build:
+    # context: ./client
+    # dockerfile: Dockerfile
+    stdin_open: true
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api-server
+
+  api-server:
+    image: api-server
+    # build:
+    #   context: ./server
+    #   dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mongo
+    # environment:
+    #   - MONGO_URL=mongodb://mongo:27017/mission5db
+
+
+  mongo:
+    image: mongo
+    ports:
+      - "27018:27017"
+    restart: always
+    volumes:
+      - ./data:/data/db

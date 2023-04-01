@@ -1,0 +1,54 @@
+this is my Docker for reactapp called client
+FROM node:14-alpine
+WORKDIR /app
+COPY package*.json ./
+RUN npm install
+COPY . .
+EXPOSE 3000
+CMD ["npm", "start"]
+
+node js called server Dockerfile is as follows
+
+FROM node:14
+WORKDIR /app
+COPY package*.json ./
+# Install dependencies
+RUN npm install
+COPY . .
+ENV MONGO_URL mongodb://mongo:27017/mission5db
+EXPOSE 8000
+CMD [ "npm", "start" ]
+
+and my docker-compose is 
+
+version: "3.8"
+services:
+
+  react-app:
+    image: react-app
+    stdin_open: true
+    ports: 
+      - "3000:3000"
+    depends_on:
+      - api-server
+
+  api-server:
+    image: api-server
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mongo
+    environment:
+      - MONGO_URL=mongodb://mongo:27017/mission5db
+      
+
+  mongo:
+    image: mongo
+    ports:
+      - "27017:27017"
+    restart: always
+    volumes:
+      - ./data:/data/db
+    
+
+can you please find the mistake

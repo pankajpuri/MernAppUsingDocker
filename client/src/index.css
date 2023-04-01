@@ -1,0 +1,10 @@
+#homepage {
+  position: relative;
+  height: 100vh;
+}
+#homepage h1 {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}/*# sourceMappingURL=index.css.map */

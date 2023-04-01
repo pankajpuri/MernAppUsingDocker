@@ -1,0 +1,156 @@
+#navtab .top-nav {
+  background: black;
+}
+#navtab .nav-tabs {
+  display: flex;
+  border: none;
+}
+#navtab .nav-tabs li a {
+  color: white;
+}
+#navtab .nav-tabs .nav-link.active, #navtab .nav-tabs .nav-item.show .nav-link {
+  background: transparent !important;
+  border-color: transparent !important;
+  border-bottom: 3px solid white !important;
+}
+#navtab nav {
+  background: #0d5078 !important;
+  display: flex;
+  flex-direction: row;
+}
+#navtab nav .container img {
+  margin-right: 30px;
+  width: 163.93px;
+  height: "32px !important";
+}
+#navtab nav .container ul {
+  height: 32px;
+}
+#navtab nav .container form .form-control {
+  height: "32px !important";
+  margin-right: 0px !important;
+  border-radius: 12px 0px 0px 12px !important;
+  border: 1px solid #fff !important;
+  font-weight: 400;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 21px;
+}
+#navtab nav .container form button {
+  width: 62px;
+  background: #f08222 !important;
+  height: "32px !important";
+  border-radius: 0px 12px 12px 0px !important;
+}
+#navtab nav .container form ul {
+  padding: 5px 5px 0px 0px;
+  list-style: none;
+  background: white;
+}
+#navtab nav .container form ul li {
+  height: "32px !important";
+  padding: 0px !important;
+}
+#navtab nav .container form ul li a {
+  padding: 0px !important;
+  font-weight: 300;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 21px;
+}
+#navtab nav .container form i {
+  color: white !important;
+}
+
+.extra-tab .nav-link {
+  color: white !important;
+  font-weight: 300;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 20px;
+  display: inline;
+  list-style: none;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+#third-nav ul li a {
+  color: white;
+  font: Roboto;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+#top-nav-left ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid red;
+}
+
+#top-nav-right ul li a, #top-nav-left ul li a {
+  font-family: Robot;
+  font-weight: 300;
+  font-size: 13.2px;
+  line-height: 30px;
+  padding-right: 10px;
+  color: white;
+}
+
+#banner-section .row {
+  background: linear-gradient(180deg, #E2E2E2 0%, rgba(176, 176, 176, 0) 100%);
+  border-radius: 12px;
+}
+#banner-section h1, #banner-section p {
+  font-family: "Roboto";
+  position: absolute;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 21px;
+  left: 66px;
+  top: 60px;
+  color: #0E4364;
+}
+#banner-section p {
+  color: #0E4364;
+  position: absolute;
+  max-width: 650px;
+  height: 109px;
+  left: 66px;
+  top: 125px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+}
+
+#productCategory .btn {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  font-weight: 300px;
+  font-size: 14px;
+  background: #1278a5;
+}
+#productCategory .btn:hover {
+  background: #0d5078;
+}
+#productCategory .card {
+  background: #E2E2E2;
+  border-radius: 8px;
+  width: 18rem;
+  box-sizing: border-box;
+}
+#productCategory .browse-dropdown {
+  border-radius: 12px;
+  background: white;
+  text-align: center;
+}/*# sourceMappingURL=App.css.map */
