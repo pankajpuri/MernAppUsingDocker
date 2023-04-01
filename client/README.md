@@ -1,6 +1,14 @@
 # Hi, I am Pankaj Puri
 
-## About The Project: 
+## About The Project:
+### Home page looks like as follows:
+<img width="1669" alt="Screenshot 2023-04-01 at 6 37 27 PM" src="https://user-images.githubusercontent.com/16832834/229267878-26cd44d5-8f27-4ad5-a8c8-0fa653aab45b.png">
+
+### Shopping page looks as follows:
+
+<img width="1680" alt="Screenshot 2023-04-01 at 6 38 19 PM" src="https://user-images.githubusercontent.com/16832834/229267886-9fbf6b8f-6ac3-4fa0-a27a-4ad1ef325473.png">
+
+
 
 ### Task 1. Create Infrastructure
 In this task, you will setup the infrastructure for your UX Designer's application to run.  Your application and database will reside inside of Docker containers, and you can choose amongst Docker Compose, Kubernetes, and/or Minikube to host and run the containers.  The quickest way is to follow a tutorial that will teach you to setup a hello world (or any) application with this infrastructure.
@@ -45,18 +53,14 @@ Go to your terminal and follow the instruction
 
 - Clone the repo
 
-`git clone https://github.com/pankajpuri/turnerscarsapi.git`
+`git clone https://github.com/pankajpuri/MernAppUsingDocker.git`
 - Install NPM packages
 
  `npm install`
  
 - To run the test file type
 
- ` npm test.js`
- 
-- To run the application type
-
-` node indes.js`
+ `docker-compose up`
 
 
 ### Please visit my portfolio by clicking the link below.
