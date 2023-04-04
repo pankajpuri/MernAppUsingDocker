@@ -21,9 +21,18 @@ class Header extends Component {
       <div id="navtab">
         <div className="top-nav">
           <div className="container" style={{ display: "flex" }}>
-            <div className="row" style={{ width: "100%" }}>
-              <div id="top-nav-left" className=" col-8">
-                <ul className="nav nav-tabs ">
+            <div
+              className="row"
+              style={{
+                width: "100%",
+              }}
+            >
+              <div
+                id="top-nav-left"
+                className="col col-lg-8"
+                style={{ border: "1px" }}
+              >
+                <ul className=" nav-tabs hel ">
                   <li className="nav-item">
                     <NavLink
                       className="nav-link active"
@@ -73,7 +82,7 @@ class Header extends Component {
               {/*  */}
               <div
                 id="top-nav-right"
-                className=" col-4 "
+                className="col col-lg-4"
                 style={{
                   display: "flex",
                   flexDirection: "row",
@@ -192,7 +201,10 @@ class Header extends Component {
               </div>
 
               <div className="col-5 extra-tab" style={{ display: "flex" }}>
-                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul
+                  id="helpSupportNav"
+                  className="navbar-nav me-auto mb-2 mb-lg-0"
+                >
                   <li className="nav-item ">
                     <a
                       className="nav-link active "
@@ -224,7 +236,10 @@ class Header extends Component {
                     </a>
                   </li>
                 </ul>
-                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul
+                  id="watchlistCartNav"
+                  className="navbar-nav me-auto mb-2 mb-lg-0"
+                >
                   <li className="nav-item">
                     <a className="nav-link " href="#home">
                       <i className="fa fa-heart-o" aria-hidden="true" />

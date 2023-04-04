@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(bodyParser.json());
 
 mongoose
-  .connect("mongodb://mongo/mission5db", {
+  .connect("mongodb://localhost:27017/mission5db", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
