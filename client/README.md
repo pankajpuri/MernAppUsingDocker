@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Hi, I am Pankaj Puri
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About The Project:
+### Home page looks like as follows:
+<img width="1669" alt="Screenshot 2023-04-01 at 6 37 27 PM" src="https://user-images.githubusercontent.com/16832834/229267878-26cd44d5-8f27-4ad5-a8c8-0fa653aab45b.png">
 
-## Available Scripts
+### Shopping page looks as follows:
 
-In the project directory, you can run:
+<img width="1680" alt="Screenshot 2023-04-01 at 6 38 19 PM" src="https://user-images.githubusercontent.com/16832834/229267886-9fbf6b8f-6ac3-4fa0-a27a-4ad1ef325473.png">
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Task 1. Create Infrastructure
+In this task, you will setup the infrastructure for your UX Designer's application to run.  Your application and database will reside inside of Docker containers, and you can choose amongst Docker Compose, Kubernetes, and/or Minikube to host and run the containers.  The quickest way is to follow a tutorial that will teach you to setup a hello world (or any) application with this infrastructure.
 
-### `npm test`
+The target architecture of the infrastructure you are going to setup will be as follows:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Task 2. Update the Application
+Once you created the infrastructure with a running application, you need update the code in the container.  In this task, you are asked to insert a document in MongoDB, and update the code at the front end to access the document.
 
-### `npm run build`
+The document to insert into MongoDB is:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`{ message: "hello world" }`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The application at the front end will need to display the "hello world" text by accessing the message field of the MongoDB document.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The following resources may help:
 
-### `npm run eject`
+### Task 3. Provide feasibility input when needed
+Provide input as a developer to your team’s UX Designer(s), with a focus on the technical feasibility of the UX Design prototype you have been given to work with.  Note that your input is provided for advisory purposes only, for it is the UX Designer(s)’ responsibility to make the final decisions on the design.  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Built With
+- `React.Js`
+- `Bootstrap`
+- `Axios`
+- `JQuery`
+- `Node.JS`
+- `Express.JS`
+- `MongoDb`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Getting Started
+To run this programme you need 
+- Visual Studio Code.
+- You can download VSCode using following link [VSCODE](https://code.visualstudio.com/download)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
 
-## Learn More
+- You need to install node [https://nodejs.org/en/download](https://nodejs.org/en/download)
+- Go to your Terminal and install npm
+- npm type in your terminal `npm install npm@latest -g`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Go to your terminal and follow the instruction
 
-### Code Splitting
+- Clone the repo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+`git clone https://github.com/pankajpuri/MernAppUsingDocker.git`
+- Install NPM packages
 
-### Analyzing the Bundle Size
+ `npm install`
+ 
+- To run the test file type
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ `docker-compose up`
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Please visit my portfolio by clicking the link below.
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[https://pankajpuri.github.io/portfolio/](https://pankajpuri.github.io/portfolio/)
